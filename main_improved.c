@@ -30,7 +30,7 @@ int main() {
     double sum[3], avg[3], sum_avg[3], avg_avg[3];
     clock_t start[3], end[3], start_p, end_p;
 	time_t t;
-    double cpu_time_used[3], cpu_time_used_p; //try an array [3] to save the execution time of each algorithm
+    double cpu_time_used[3], cpu_time_used_p; 
 	item *a, *b;
 	start_p= clock();
     
