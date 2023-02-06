@@ -69,7 +69,6 @@ int main() {
                 }
                 end[l]=clock();
                 cpu_time_used[l]= (double)(end[l]-start[l])/CLOCKS_PER_SEC;
-				if(l==2) printf("time qsort: %2f\n", cpu_time_used[2]);
                 sum[l]+=cpu_time_used[l];
                 for(j=0; j<n; j++)
                     a[j]=b[j];
