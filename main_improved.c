@@ -115,7 +115,7 @@ const char* choice(int k){
         case 2:
             return "QuickSort"; break;
         default:
-            return "WrongInput";break;
+            return "WrongInput!";break;
     }
 }
 
