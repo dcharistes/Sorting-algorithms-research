@@ -3,7 +3,7 @@
 #include <time.h>
 #include <string.h>
 #include <windows.h>
-#include "main.h"
+#include "main_f.h"
 
 const char* choice(int k){
     switch (k)
