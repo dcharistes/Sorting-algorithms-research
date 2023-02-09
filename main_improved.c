@@ -27,7 +27,7 @@ int main() {
 	    a = (item *)malloc(n * sizeof(item));
         b = (item *)malloc(n * sizeof(item));
 	    if (a == NULL) {
-		    printf("Error while allocating memory!!!");
+		    printf("Error while allocating memory!");
 		    return -1;
 	    }
 		for(j=0; j<3; j++)
