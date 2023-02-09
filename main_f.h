@@ -8,7 +8,7 @@ typedef int item;
 
 #define key(A) (A)
 #define less(A, B) (key(A) < key(B))
-#define exch(A, B) { item t = A; A = B; B = t; }
+#define exch(A, B) {item t = A; A = B; B = t;}
 #define compexch(A, B) if (less(A, B)) exch(A, B)
 
 const char* choice(int k);
