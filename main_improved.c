@@ -68,7 +68,6 @@ int main() {
         printf("\n");
 		free(a);
 		free(b);
-
     }
 	Sleep(1500);
 	printf("----------------\n");
@@ -84,7 +83,6 @@ int main() {
 	printf("----------------\n");
 	printf("Execution time of the program: %2f\n", cpu_time_used_p);
 
-    
 	system("PAUSE");
 	return 0;
 
