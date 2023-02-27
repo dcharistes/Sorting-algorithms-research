@@ -1,6 +1,6 @@
 /*Description: Implementation of a program in C - to observe the time 
 performance of 3 sorting algorithms (InsertionSort, SelectionSort, QuickSort)
-Author: dcharistes */
+Author: dcharistes*/
   
 #include <stdio.h>
 #include <stdlib.h>
