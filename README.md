@@ -1,8 +1,4 @@
 # Sorting-algorithms-research
 Abstract
 
-Σε αυτήν την εργασία θα μελετηθεί ο χρόνος εκτέλεσης τριών βασικών αλγορίθμων ταξινόμησης(Insertion Sort, Selection Sort, Quick Sort). 
-Για την διεξαγωγή αυτής της μελέτης θα γίνει συγγραφή ενός προγράμματος σε γλώσσα C όπου οι αλγόριθμοι θα ταξινομούν αριθμητικούς πίνακες με διαστάσεις από 10.000  
-έως και 100.000 θέσεις και βήμα 10.000. Επίσης για κάθε διάσταση θα καταγράφεται ο χρόνος που χρειάστηκε κάθε αλγόριθμος για την ταξινόμηση του πίνακα. 
-Τα αποτελέσματα της ερευνάς θα παραστούν σε πίνακα μαζί με το αντίστοιχο γράφημα και τις προσεγγιστικές συναρτήσεις χρόνου- διάστασης που ακολουθεί ο κάθε αλγόριθμος, 
-Τ(n)=t. Επίσης θα γίνει μελέτη της πολυπλοκότητας του κάθε αλγορίθμου.
+In this research, the execution time of three basic sorting algorithms (Insertion Sort, Selection Sort, Quick Sort) will be studied. To conduct this study, a program in C language will be written where the algorithms will sort numerical arrays 10,000 up to 100,000 positions and step 10,000 (meaning that, at first, the algorithm will sort an array of 10,000 then an array of 20,000 and so on). Also, for each dimension (number of positions), the time each algorithm took to sort the table will be measured and stored for review and analysis. The results of the research will be presented in a table with the corresponding graph and the approximate time-dimension functions each algorithm tends to follow, T(n)=t. The complexity of each algorithm will also be studied.
